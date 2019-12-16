@@ -57,8 +57,6 @@ void draw(){
   pe.x = cos(millis()/20000.0 * TWO_PI) * circle_range;
   pe.y = sin(millis()/20000.0 * TWO_PI) * circle_range;
   
-  saveFrame("save/frame_####.png"); 
-  
 }
 
 void off_axis(PVector _pa, PVector _pb, PVector _pc, PVector _pe, float n, float f){
