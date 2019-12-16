@@ -18,7 +18,7 @@ You can use many kinds of interactive sensors,for example Kinect, RealSence, Cam
 ## Notes
 
 * The 'aspect_ratio' should be same as 'size()' aspect ratio.<br>
-For example 'aspect_ratio_X=16' 'aspect_ratio_Y=10', than 'width=800' 'height=500'
+For example `aspect_ratio_X=16` `aspect_ratio_Y=10`, than `width=800` `height=500`
 
 * There are two major effects, Depth and Mirror.<br>
 The different between these two effect is positive and negative view movement.
