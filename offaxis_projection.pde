@@ -32,7 +32,7 @@ int near_dist = 10;
 int far_dist = 20000;
 
 void setup(){
-  size(1280,800,P3D);
+  size(800,500,P3D);
   //fullScreen(P3D); // 1280 800
   
   //Change the camera setting, look from 'pe' to 'near_plane_center'.
@@ -56,6 +56,8 @@ void draw(){
   float circle_range = 5.0;
   pe.x = cos(millis()/20000.0 * TWO_PI) * circle_range;
   pe.y = sin(millis()/20000.0 * TWO_PI) * circle_range;
+  
+  saveFrame("save/frame_####.png"); 
   
 }
 
