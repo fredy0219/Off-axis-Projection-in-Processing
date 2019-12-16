@@ -1,4 +1,4 @@
-# Off-axis-Projection-in-Processing
+# Off-axis Projection in Processing
 
 
 ![image](https://github.com/fredy0219/Off-axis-Projection-on-Processing/blob/master/off-axis.gif)
@@ -11,8 +11,7 @@ Processing OPENGL Library
 ## Introduction
 
 This is a off-axis projection practice project.<br>
-Off-axis relate to Depth Screen or Mirror interactive effects.<br>
-Just like see through the screen.<br>
+Off-axis relate to Depth Screen or Mirror interactive effects,just like seeing through the screen.<br>
 
 You can use many kinds of interactive sensors,for example Kinect, RealSence, Camera, to capture user's eye position.
 
